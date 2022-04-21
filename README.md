@@ -1,6 +1,6 @@
 # pands-project
 
-# This is the readme file for the Programming and Scripting module final project for 2022
+# This is the readme file for the Programming and Scripting module Final Project for 2022
 
 Summary of the Project and what needs to be done:
 
@@ -52,9 +52,11 @@ Section 3 - Tools / Methods
 
 Which tools / methods will I use for this project?
 
-tbc - I want to explore the data first before deciding on final approach
+tbd - I want to explore the data first before deciding on final approach
 
-Firstly - I am going to try a Juypter Notebook
+Firstly - I will start to take a look at the data using a Python program in Visual Studio
+
+Secondly - I am going to try a Juypter Notebook as I feel this might be a better way to present the Project
 
 Section 4 - Analysis
 

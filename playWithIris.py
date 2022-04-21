@@ -22,5 +22,15 @@ df = pd.read_csv('iris.csv')
 
 # print(df.describe(include='all'))
 
-print(df.groupby('class')['sepallength'].describe())
-print(df.groupby('class')['sepalwidth'].describe())
+# print(df.groupby('class')['sepallength'].describe())
+# print(df.groupby('class')['sepalwidth'].describe())
+
+# print(df.tail())
+
+# print(df.isnull().sum())
+
+# print(df[['sepallength','sepalwidth','petallength','petalwidth']].isnull().sum())
+
+# print(df[['sepallength','sepalwidth','petallength','petalwidth']].dtypes())
+
+print(df.info())
