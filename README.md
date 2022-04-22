@@ -61,6 +61,14 @@ Secondly - I am going to try a Juypter Notebook as I feel this might be a better
 Section 4 - Analysis
 
 
+groupby.size
+
+https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.GroupBy.size.html
+
+value_counts
+
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.value_counts.html
+
 
 
 [1] https://www.techopedia.com/definition/32880/iris-flower-data-set

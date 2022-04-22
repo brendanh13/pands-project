@@ -33,4 +33,15 @@ df = pd.read_csv('iris.csv')
 
 # print(df[['sepallength','sepalwidth','petallength','petalwidth']].dtypes())
 
-print(df.info())
+# print(df.info())
+
+# print(df.columns)
+
+# print(df.assign(SepalArea=df.sepallength*df.sepalwidth))
+# print(df.head())
+
+# df.insert(5,'sepalarea',df.sepalwidth*df.sepallength)
+# print(df.head())
+
+# df["sepalarea"] = (df.sepallength*df.sepalwidth)
+print(df.head())
