@@ -1,0 +1,38 @@
+Summary of Variables 
+
+
+Variable is petallength
+The number of rows is 150
+This is a float64 variable
+The mean value of petallength is 3.759cm
+The min value of petallength is 1.0cm
+The max value of petallength is 6.9cm 
+
+Variable = petalwidth
+The number of rows is 150
+This is a float64 variable
+The mean value of petalwidth is 1.199cm
+The min value of petalwidth is 0.1cm
+The max value of petalwidth is 2.5cm 
+
+Variable = sepallength
+The number of rows is 150
+This is a float64 variable
+The mean value of sepallength is 5.843cm
+The min value of sepallength is 4.3cm
+The max value of sepallength is 7.9cm 
+
+Variable = sepalwidth
+The number of rows is 150
+This is a float64 variable
+The mean value of sepalwidth is 3.054cm
+The min value of sepalwidth is 2.0cm
+The max value of sepalwidth is 4.4cm 
+
+Variable = class
+The number of rows is 150
+The unique species within the class variable are:
+['Iris-setosa' 'Iris-versicolor' 'Iris-virginica']
+The count of the Iris-setosa species is 50
+The count of the Iris-virginica species is 50
+The count of the Iris-versicolor species is 50
