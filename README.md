@@ -92,9 +92,9 @@ References
 [2] https://archive.ics.uci.edu/ml/datasets/iris
 
 
-# Note that I had some Git issues during the project; I had the blue screen of death on my laptop and had to reinstall Windows.
-# I eventually did manage to get things sync'd up again after a lot of attempts and googling! I am not sure how it will look when you review it from your side.
-# The method I ended up using was to delete the directory locally on my own PC (i still had this as it was on OneDrive) and then I cloned the pands-project repository 
-# and pulled all the files down again.  Seems to be ok now. 
+Note that I had some Git issues during the project; I had the blue screen of death on my laptop and had to reinstall Windows.
+I eventually did manage to get things sync'd up again after a lot of attempts and googling! I am not sure how it will look when you review it from your side.
+The method I ended up using was to delete the directory locally on my own PC (i still had this as it was on OneDrive) and then I cloned the pands-project repository 
+and pulled all the files down again.  Seems to be ok now. 
 
 
