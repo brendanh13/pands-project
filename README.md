@@ -1,6 +1,6 @@
 # pands-project
 
-# This is the readme file for the Programming and Scripting module Final Project for 2022
+# This is the README file for the Programming and Scripting Module Final Project for 2022
 
 Summary of the Project and what needs to be done:
 
@@ -38,7 +38,7 @@ Given the information I have gathered so far - I now believe I am in a position 
 
 Section 2 - Initial Analysis / Thoughts
 
-Before I start; I am asking myself what types of things do i want to or could could I find out about the data set and what learnings will I be able to state?
+Before I start; I am asking myself what types of things do I want to or could could I find out about the data set and what learnings will I be able to state?
 
 I will jot down these below and use them as I proceed through the analysis (I am keen to do this as I want to try put my own stamp on this instead of potentially being directed too much by the research / analysis available across the internet)
 
@@ -60,17 +60,21 @@ Secondly - I am going to try a Juypter Notebook as I feel this might be a better
 
 Section 4 - Analysis
 
+The analsys I am presenting will be primarily presented within a Jupyter Notebook while I will also have a small Python programme called analysis.py that will be used to supplement the Jupyter Notebook by creating further data and visual outputs.
 
-groupby.size
 
-https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.GroupBy.size.html
 
-value_counts
 
-https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.value_counts.html
 
 
 
 [1] https://www.techopedia.com/definition/32880/iris-flower-data-set
 
-{2} https://archive.ics.uci.edu/ml/datasets/iris
+[2] https://archive.ics.uci.edu/ml/datasets/iris
+
+
+
+
+
+
+https://stackabuse.com/writing-to-a-file-with-pythons-print-function/

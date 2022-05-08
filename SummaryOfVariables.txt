@@ -1,7 +1,7 @@
 Summary of Variables 
 
 
-Variable is petallength
+Variable = petallength
 The number of rows is 150
 This is a float64 variable
 The mean value of petallength is 3.759cm

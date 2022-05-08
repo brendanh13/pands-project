@@ -1,4 +1,4 @@
-# Small Python program to analsyse the variables with the Irish data set for the PandS Project
+# Small Python program to analsyse the variables within the Irish data set for the PandS Project
 # The file created in the output of this program will be called analysis.py and contains a basic summary for each variable
 
 # Author: Brendan Heeney
@@ -8,20 +8,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys
 
-# Importing the Data 
+# Importing the Data - I have a copy of the iris dataset saved in .csv format in my current directory
 
-df = pd.read_csv('iris.csv')
+df = pd.read_csv('iris.csv')   # read_csv will read in the csv file containing the Iris dataset
 
-original_stdout = sys.stdout  
+original_stdout = sys.stdout   # this is telling Python that it needs to find the stdout using the sys module
  
-with open('SummaryOfVariables.txt', 'w') as f:
-    sys.stdout = f 
+with open('SummaryOfVariables.txt', 'w') as f:     # this is creating a new file that we can write to and declaring it as the variable f
+    sys.stdout = f                                  # changes the standard output to the new file which we have created
 
 
-    print("Summary of Variables \n\n")
+    print("Summary of Variables \n\n")          # The \n tells Python to move to next line in the output
 
 
-    print("Variable is petallength")
+    print("Variable = petallength")
     plc = df["petallength"].count()
     print("The number of rows is {}".format(plc))
     typepl = df["petallength"].dtypes
@@ -83,33 +83,46 @@ with open('SummaryOfVariables.txt', 'w') as f:
     print("The count of the Iris-versicolor species is {}".format(countsetosa))
 
 
-    # Reset the standard output
-    sys.stdout = original_stdout 
+    
+    sys.stdout = original_stdout                # Resets the standard output
  
 
 
-plt.subplot(2,2,1)
 
-plt.hist(df['sepallength'], bins = 15)
+
+plt.hist(df['sepallength'])
 
 plt.title('Iris - Sepal Lengths')
 
-plt.subplot(2,2,2)
+plt.savefig("SepalLength.png")
 
-plt.hist(df['sepalwidth'], bins = 15, color = 'red')
+plt.clf()               # the plt.clf is required in order to keep the histrograms completely separate when saving them to files 
+
+plt.hist(df['sepalwidth'])
 
 plt.title('Iris - Sepal Widths')
 
-plt.subplot(2,2,3)
+plt.savefig("SepalWidth.png")
 
-plt.hist(df['petallength'], bins = 15, color = 'orange')
+plt.clf()
+
+plt.hist(df['petallength'])
 
 plt.title('Iris - Petal Lengths')
 
-plt.subplot(2,2,4)
+plt.savefig("PetalLength.png")
 
-plt.hist(df['petalwidth'], bins = 15, color = 'green')
+plt.clf()
+
+plt.hist(df['petalwidth'])
 
 plt.title('Iris - Petal Widths')
 
-plt.savefig("HistogramsOfVariables.png")
+plt.savefig("PetalWidth.png")
+
+plt.clf()
+
+plt.scatter(df['petallength'], df['petalwidth'])
+
+plt.savefig("PetalScatter.png")
+

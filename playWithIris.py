@@ -139,3 +139,37 @@ plt.xlabel("Sepal Length")
 plt.ylabel("Count")
 plt.savefig('test1.png')
 '''
+"""
+plt.hist(df['sepallength'], bins = 15)
+
+plt.title('Iris - Sepal Lengths')
+
+plt.savefig("SepalLength.png")
+
+plt.subplot(2,2,1)
+
+plt.hist(df['sepallength'], bins = 15)
+
+plt.title('Iris - Sepal Lengths')
+
+plt.subplot(2,2,2)
+
+plt.hist(df['sepalwidth'], bins = 15, color = 'red')
+
+plt.title('Iris - Sepal Widths')
+
+plt.subplot(2,2,3)
+
+plt.hist(df['petallength'], bins = 15, color = 'orange')
+
+plt.title('Iris - Petal Lengths')
+
+plt.subplot(2,2,4)
+
+plt.hist(df['petalwidth'], bins = 15, color = 'green')
+
+plt.title('Iris - Petal Widths')
+
+plt.savefig("HistogramsOfVariables.png")
+
+"""
