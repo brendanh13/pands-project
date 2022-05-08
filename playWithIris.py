@@ -172,4 +172,33 @@ plt.title('Iris - Petal Widths')
 
 plt.savefig("HistogramsOfVariables.png")
 
+
+
+
+plt.scatter(df['petallength'],df['petalwidth'])
+plt.title('Scatter - Petal Length v Petal Width ')
+plt.xlabel('Petal Length')
+plt.ylabel('Petal Width')
+plt.savefig("Scatter-PLvPW.png")
+"""
+"""
+# create color dictionary
+colors = {'setosa':'r', 'versicolor':'g', 'virginica':'b'}
+
+# create a figure and axis
+fig, ax = plt.subplots()
+
+# plot each data-point
+for i in range(len(df['sepallength'])):
+    ax.scatter(df['sepallength'][i], df['sepalwidth'][i], color=colors[df['class'][i]])
+
+# set a title and labels
+ax.set_title('Iris Dataset')
+ax.set_xlabel('sepal_length')
+ax.set_ylabel('sepal_width')
+"""
+
+"""  
+plt.hist(df['sepalarea'], color = "green")
+plt.show()
 """
